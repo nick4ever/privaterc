@@ -1,0 +1,2 @@
+# privaterc
+Personal *rc config
