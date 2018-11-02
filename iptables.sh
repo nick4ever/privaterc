@@ -17,7 +17,7 @@ WAN=ppp0
 WAN_INCOMING_PORT_ARR=(22 80)
 LAN_INCOMING_PORT_ARR=(22 80)
 
-forwardPort() {
+forward() {
     FROM_INTERFACE=$1
     FROM_PORT=$2
     TO_IP=$3
